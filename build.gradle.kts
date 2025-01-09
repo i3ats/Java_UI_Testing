@@ -1,7 +1,7 @@
 plugins {
-    kotlin("jvm")
-    id("io.freefair.lombok")
-    id("org.openjfx.javafxplugin")
+    alias(libs.plugins.org.jetbrains.kotlin.jvm)
+    alias(libs.plugins.io.freefair.lombok)
+    alias(libs.plugins.org.openjfx.javafxplugin)
     application
 }
 
